@@ -12,15 +12,15 @@ commands:
   usage: "/bw"
   permission: bw.tp
  bwvote:
-  description: "Vote for start game now"
+  description: "Vote para comecar"
   usage: "/bwvote"
   permission: bw.vote
  bwstart:
-  description: "Start the game now"
+  description: "Comece o jogo"
   usage: "/bwstart"
   permission: bw.start
  bwstop:
-  description: "Stop the game"
+  description: "Pare o jogo"
   usage: "/bwstop"
   permission: bw.stop
 permissions:
@@ -30,13 +30,13 @@ permissions:
   children:
    bw.tp:
     default: true
-    description: "Allows to tp to game lobby"
+    description: "Todos teleportar para o jogo"
    bw.vote:
     default: true
-    description: "Allows to vote for start the game now"
+    description: "Permitir votar no jogo"
    bw.start:
     default: op
-    description: "Allows to start the game now"
+    description: "Permitir comecar o jogo agora"
    bw.stop:
     default: op
-    description: "Allows to stop the game"
+    description: "Permitir parar o jogo"
