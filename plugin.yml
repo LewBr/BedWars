@@ -3,7 +3,7 @@ main: BedWars\BedWars
 version: 1.0.5
 api: 2.0.0
 load: STARTUP
-author: LewBr
+author: Tarik02
 description: BedWars MiniGame
 website: www.twitter.com/PocketGamesPE
 commands:
