@@ -5,22 +5,21 @@ api: 2.0.0
 load: STARTUP
 author: Tarik02
 description: BedWars MiniGame
-website: www.twitter.com/PocketGamesPE
 commands:
  bw:
   description: "BedWars!"
   usage: "/bw"
   permission: bw.tp
  bwvote:
-  description: "Vote para comecar"
+  description: "Vote to start"
   usage: "/bwvote"
   permission: bw.vote
  bwstart:
-  description: "Comece o jogo"
+  description: "Start game"
   usage: "/bwstart"
   permission: bw.start
  bwstop:
-  description: "Pare o jogo"
+  description: "Stop game"
   usage: "/bwstop"
   permission: bw.stop
 permissions:
@@ -30,13 +29,13 @@ permissions:
   children:
    bw.tp:
     default: true
-    description: "Todos teleportar para o jogo"
+    description: "Enable teleporting to a game"
    bw.vote:
     default: true
-    description: "Permitir votar no jogo"
+    description: "Enable game voting"
    bw.start:
     default: op
-    description: "Permitir comecar o jogo agora"
+    description: "Enable Force game start"
    bw.stop:
     default: op
-    description: "Permitir parar o jogo"
+    description: "Enable game stop"
